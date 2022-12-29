@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Menu() {
   return (
-    <div>
-      
+    <div>   
       <nav>
         <ul>
           <li  className="active">
