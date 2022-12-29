@@ -22,7 +22,7 @@ function Help() {
         <li>Execute o comando: git init </li>
         <li>Execute o comando: git add . </li>
         <li>Execute o comando: git commit -m "titulo do commit" </li>
-        <li>Execute o comando: git commit branch -M master </li>
+        <li>Execute o comando: git branch -M master </li>
         <li>Execute o comando: git push -u origin master </li>
       </ol>
     </div>
