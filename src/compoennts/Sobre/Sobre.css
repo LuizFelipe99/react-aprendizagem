@@ -1,0 +1,15 @@
+.container {
+  margin-left:20%;
+  padding:1px 16px;
+}
+.title{
+  text-align: center;
+  font-size: 31px !important;
+  font-weight: bold;
+}
+.description{
+  font-size: 21px;
+  line-height: 25px;
+  margin: 5%;
+  text-align: center;
+}
