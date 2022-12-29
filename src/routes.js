@@ -4,6 +4,7 @@ import Home from './compoennts/Home';
 import Sobre  from './compoennts/Sobre';
 import Elvis from './compoennts/Elvis';
 import Luiz from './compoennts/Luiz';
+import Sidao from './compoennts/Sidao';
 
 function Rotas() {
   return (
@@ -13,6 +14,7 @@ function Rotas() {
         <Route path="/sobre" element={<Sobre/>} />
         <Route path="/elvis" element={<Elvis/>} />
         <Route path="/luiz" element={<Luiz/>} />
+        <Route path="/sidao" element={<Sidao/>} />
       </Routes>
     </div>
   );
