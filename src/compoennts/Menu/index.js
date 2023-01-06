@@ -12,6 +12,9 @@ function Menu() {
           </li>
           <hr></hr>
           <li>
+            <Link to="/fase-grupo">Fase de Grupo</Link>
+          </li>
+          <li>
             <Link to="/sobre">Sobre</Link>
           </li>
         </ul>
