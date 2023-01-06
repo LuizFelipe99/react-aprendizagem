@@ -1,10 +1,15 @@
 import React from 'react';
+// import Img from 'react-image'
+import Napoli from '../../escudos/napoli-logo.png';
+import Liverpool from '../../escudos/liverpool-logo.png'
+import Ajax from '../../escudos/ajax-logo.png'
+import Rangers from '../../escudos/rangers-logo.png'
 import './Grupo.css';
 
 const Fase_Grupo = () =>{
   return (
     <div className='container'>
-      <h1>Fase de Grupos</h1>
+      <h1>Fase de Grupos CHAMPIONS LEAGUE</h1>
       <p className='group' >Grupo A</p>
       <table className='customers' >
         <tr>
@@ -20,7 +25,7 @@ const Fase_Grupo = () =>{
           <th>%</th>
         </tr>
         <tr>
-          <td>Napoli</td>
+          <td> <img className='escudos' src={Napoli} alt="Napoli" /> Napoli</td>
           <td>15</td>
           <td>6</td>
           <td>5</td>
@@ -32,7 +37,7 @@ const Fase_Grupo = () =>{
           <td>83</td>
         </tr>
         <tr>
-          <td>Liverpool</td>
+          <td> <img className='escudos' src={Liverpool} alt="Liverpool" /> Liverpool</td>
           <td>15</td>
           <td>6</td>
           <td>5</td>
@@ -44,7 +49,7 @@ const Fase_Grupo = () =>{
           <td>83</td>
         </tr>
         <tr>
-          <td>Ajax</td>
+          <td> <img className='escudos' src={Ajax} alt="Ajax" /> Ajax</td>
           <td>6</td>
           <td>6</td>
           <td>2</td>
@@ -56,7 +61,7 @@ const Fase_Grupo = () =>{
           <td>33</td>
         </tr>
         <tr>
-          <td>Rangers</td>
+          <td> <img className='escudos' src={Rangers} alt="Ajax" /> Rangers</td>
           <td>0</td>
           <td>6</td>
           <td>0</td>
